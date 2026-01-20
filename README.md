@@ -6,4 +6,4 @@ Each e-mail ZenDesk sends through their ticketing system is marked through an he
 
 So we can use this to build an list of known of "bad compliance" accounts, which do not have configured ZenDesk properly and allow users to send unauthenticated tickets through their system which is used for spam.
 
-By default the configuration rejects *all* ZenDesk accounts but ideally over-time you should collect each violation and create an curated list of account ids which do not implement their ticketing system behind an registration.
+The list is not even anywhere near *completed* it blocks some known worst-cases but there is still a lot of unknown senders, consider helping by making an pull request or an issue, each blocked account id helps our mailboxes to have less spam :)
